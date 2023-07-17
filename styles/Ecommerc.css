@@ -1,0 +1,103 @@
+/* work sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+}
+header{
+    background-color: white;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin: 20px;
+    font-weight: 300;
+    font-size: 15px;
+}
+nav a{
+   
+    text-decoration: none;
+    color: black;
+}
+/* banner section style */
+.banner{
+    display: flex;
+    margin-top: 50px;
+}
+.banner-img{
+    background-image: url('../images/Circle\ design.svg');
+}
+.banner-img img{
+    align-items: center;
+    margin-top: 50px;
+}
+.btn-primary{
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: palevioletred;
+    color: white;
+    padding: 20px;
+    border: none;
+}
+/* icon section style */
+.icon{
+    /* margin-right: 30px; */
+    border-top: 1px solid slategray;
+    border-bottom:1px solid slategray ;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 40px;
+}
+/* popular section style */
+main{
+    background-color: white;
+    padding: 50px 70px; 
+}
+.popular-title{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.popular-content{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 10px;
+    margin-top: 40px;
+}
+.popular-card{
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px grey;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+/* features section style */
+.feature-content{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 250px;
+}
+/* footer style */
+.footer{
+    background-color: rgb(7, 3, 30);
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
